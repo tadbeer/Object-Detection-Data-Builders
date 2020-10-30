@@ -1,4 +1,10 @@
+# Description
+
+Post labelling object detection data, labelling verification by separately class-wise saving all annotation slices for more accurate rechecking; then stratifically splitting the whole dataset into train and val sets ensuring relatively equal distribution of all object classes in the resultant sets.
+
 These set of scripts can be used to verify custom object detection annotations and then split the whole dataset into train and validation stratifically. That implies the total number of occurences of each class in validation data shall be proportional to the their occurences in training data.
+
+____________________________________________________________________________________________________________
 
 It expects input as a set of images and their annotations in PASCAL VOC format as xml files.
 
